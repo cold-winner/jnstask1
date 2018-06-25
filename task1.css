@@ -1,11 +1,13 @@
 
-       div{  border:2% solid ;
-  	     width:30%; 
-  	     padding-bottom:30%;
-  	     background: orange;
+       div{  border:0px solid orange;
+  	         width:30%; 
+  	         height: 29vw;
+  	         background: orange;
              border-radius: 5%;
              margin: 1.6%;
            }
+
+
 
        .c1{float: right;}
        .c2{float: right;}
