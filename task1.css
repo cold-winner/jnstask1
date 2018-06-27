@@ -1,14 +1,21 @@
+        
+
+
+      body {margin: 0;
+
+            
+           }
 
        div{  border:0px solid orange;
-  	         width:30%; 
-  	         height: 29vw;
+  	         width:30vw; 
+  	         height: 30vw;
   	         background: orange;
              border-radius: 5%;
-             margin: 1.6%;
+             margin: 1vw;
            }
 
 
-
+        
        .c1{float: right;}
        .c2{float: right;}
        .c3{float: right;}
