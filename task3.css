@@ -1,0 +1,54 @@
+
+
+
+          body {
+              margin: 0px;
+              padding: 0px;
+              background-image: url('images/background_01.jpg');
+
+          }
+
+
+         .button1 {
+             float: left;
+             margin-top: 5px;
+             clear: right;
+
+         }
+
+         .logo1{
+
+                  padding-top: 200px;
+                  text-align: center;
+                   margin-left: auto;
+                   margin-right: auto;
+
+               }
+          .txt1 {
+              padding-top: 5px;
+              text-align: center;
+              margin-left: auto;
+              margin-right: auto;
+              clear: both;
+          }
+         .logo2{
+                  padding-top: 550px;
+                 padding-left:30px;
+                  float: left;
+         }
+
+          .txt2{  padding-top: 630px;
+
+              float: left;
+          }
+         .logo3{
+             padding-top: 460px;
+                 float: right;
+
+         }
+
+         .txt3{
+             padding-top: 600px;
+             float: right;
+
+         }
