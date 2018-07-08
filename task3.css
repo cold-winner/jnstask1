@@ -6,7 +6,7 @@
               padding: 0;
               background-image: url('images/background_01.jpg');
               color: #FFFFFF;
-
+              font-size: 62.5%;
           }
 
 
@@ -21,7 +21,7 @@
              display: flex;
 
              justify-content: flex-start;
-             margin-top: 5px;
+             margin-top: 0.5rem;
 
          }
 
