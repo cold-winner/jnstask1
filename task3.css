@@ -2,11 +2,14 @@
 
 
           body {
-              margin: 0px;
-              padding: 0px;
+              margin: 0;
+              padding: 0;
               background-image: url('images/background_01.jpg');
               color: #FFFFFF;
+
           }
+
+
           span{
               display: block;
               text-align: center;
@@ -14,23 +17,32 @@
           }
 
          .button1 {
-             float: left;
+             display: -webkit-flex;
+             display: flex;
+
+             justify-content: flex-start;
              margin-top: 5px;
-             clear: right;
 
          }
 
          .logo1{
+             display: -webkit-flex;
              display: flex;
              justify-content:center ;
+             align-items: center;
              padding-top: 15%;
+
 
 
 
                }
           .txt1 {
+              display: -webkit-flex;
               display: flex;
-              padding-top: 5px;
+              padding-top: 5%;
+              margin-right: 5%;
+              margin-left: 5%;
+
               justify-content: center;
           }
 
