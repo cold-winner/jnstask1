@@ -20,12 +20,8 @@ body{
 			text-align: center;
 	}
 
-		p.person{
-			display: inline-block;
-
-	
-			
-		
+		.person{
+			display: inline-block;	
 		
 		}
 		.return{
@@ -39,6 +35,19 @@ body{
 			border: 0;
 			
 		}
+        .r1{
+            width: 10px;
+            height: 10px;
+            border:2px solid ;
+            
+            border-color:transparent transparent #fff #fff ;
+
+            transform: rotate(45deg);
+            -ms-transform: rotate(45deg);  /* ie9 */
+            -webkit-transform: rotate(45deg); /* Safari and Chrome */
+
+
+        }
 
 .footer{
 			 position: fixed;
@@ -63,6 +72,7 @@ body{
 			float: left;
             margin-left: 2%;
             text-align: center;
+
 		}
         .ly1{
             width: 100%;
@@ -73,6 +83,7 @@ body{
             background-color: #fff;
             outline: none;
             border:0;
+             color: #5FC0CD;
 
         }
 		.dh{
@@ -97,8 +108,9 @@ body{
             padding: 0;
             font-size: 1.5em;
             background-color: #5FC0CD;
-            border:0;
+            border: 0;
             outline: none;
+            color: #fff;
 
         }
 
@@ -110,23 +122,27 @@ body{
 	background-image:url(images/m1bj.png); 
 	background-size: 100% 100%;
 	font;color: #ffffff;
-	
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 
 
 
     }	
     .m1_left{
+        order: 0;
+       
 
-    	float: left;
     }	
     .touxiang{
+        order: 1;
     	height: 100px;
     	width: 100px;
     	margin-top: 80px;
     	margin-left: 20px;
     }
     .m1_right{
-    	float: left;
+    	
 
     	margin-top: 90px;
     	margin-left: 10px;
@@ -199,30 +215,35 @@ body{
         margin-left: 32px;
         border-bottom-style: solid;
         border-width: 0.5px;
-    
+        display: flex;
+
+     
        
     }
     .f1{
-    	
-        width: 85px;
+        
+    	width: 85px;
         height: 21px;
+        flex-wrap: nowrap;
+        flex:1 0 auto;
+     
+
     	border-right-style: solid;
     	border-width: 0.5px;
     	border-color: #000000;
     	color: #C0C0C0;
-        float: left;
+        
+
         -webkit-margin-before: 1em;
         -webkit-margin-after: 1em;
     }
     .f2{
-        
+         
        -webkit-margin-before: 1em;
        -webkit-margin-after: 1em;
         
-         
-     
-    	
-    	
-    
+    }
+    .g{
+        height: 90px;
     }
   
