@@ -234,11 +234,15 @@ body{
     	color: #C0C0C0;
         
 
+        margin-top: 1em;
+        margin-bottom: 1em;
         -webkit-margin-before: 1em;
         -webkit-margin-after: 1em;
     }
     .f2{
          
+       margin-top: 1em;
+       margin-bottom: 1em; 
        -webkit-margin-before: 1em;
        -webkit-margin-after: 1em;
         
