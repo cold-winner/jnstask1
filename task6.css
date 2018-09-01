@@ -17,6 +17,7 @@ div{
 	width: 100%;
 	background-color: #5FC0CD;
 	text-align: center;
+   z-index: 2;
   
   
 }
@@ -66,18 +67,18 @@ div{
    top: 80px;
    width: 100%;
    border-bottom: 1px solid #E2EAEC;
-
+   z-index: 2;
   
 }
    ul{
       list-style: none;
       -webkit-padding-start: 0px;
       margin:0;
-   }
+   }   
    .nav{
       display: flex;
       justify-content: space-around;
-
+      z-index: 2;
      
    }
    .nav>li{
@@ -96,14 +97,14 @@ div{
 
    }
    .nav>li a{
-      border-radius:  10px; 
+      border-radius:5px; 
 
    }
    .triangle{
-      margin-top: ;
+      
       border-width: 8px;
       border-style: solid;
-      border-color: #8d0eee transparent transparent transparent;
+      border-color: #E2EAEC transparent transparent transparent;
    }
    .line{
       
@@ -119,11 +120,18 @@ div{
       
       width: 33%;
       flex: auto;
-   
+       border-right: 1px solid #E2EAEC;
+      border-left: 1px solid  #E2EAEC; 
+
      position:relative;
    }
    .drop-down-menu{
       width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+
 
 
    }
@@ -149,8 +157,8 @@ div{
   
    overflow: ;
    position: absolute;
-   top: 131px;
-   
+   top: 130px;
+   z-index: 1;
 }
    /*主体第一块*/
    .main-1{
@@ -246,6 +254,7 @@ div{
    justify-content: space-around;
    background-color: #F8FAFB;
    border-top: 2px solid #E2EAEC;
+   z-index: 2;
    
 
 }
