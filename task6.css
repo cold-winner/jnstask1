@@ -159,30 +159,23 @@ div{
    top: 80px;
    width: 100%;
    border-bottom: 1px solid #E2EAEC;
-   z-index: 2; 
-}
-.list2{
-   width: 100%;
-}
-
- nav.navbar.navbar-default{
-   margin-bottom: 0;
-   display: flex;
-   align-items: center;
-   z-index: 2;
-
-}
-.container-fluid{
-   width: 100%;
-}
-ul.nav.navbar-nav{
-   width: 100%;
+   background-color: #ffffff;
    display: flex;
    justify-content: space-around;
    z-index: 2;
-   margin:0;
-   background-color: #FFFFFF;
 }
+
+.nav.nav-tabs{
+   border-bottom: 0;
+   font-style: 
+   
+}
+.dropdown-toggle{
+   color: #333;
+}
+
+
+
 .line{
    border-left: 1px solid #E2EAEC;
 }
@@ -193,7 +186,7 @@ ul.nav.navbar-nav{
   
    overflow: ;
    position: absolute;
-   top: 130px;
+   top: 122px;
    z-index: 1;
 }
    /*主体第一块*/
